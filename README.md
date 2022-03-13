@@ -26,18 +26,31 @@ npm install
 
 4. Finally you need to run it
 
-```
+```bash
 node index.js
 ```
 
 5. If you want to use nodemon (nodemon is a package that will auto restart the server when files are changed) you can run **(Optional)**
 
-```
+```bash
 npm run dev
 ```
 
 or
 
-```
+```bash
 nodemon index.js
+```
+
+## Recent dependancies
+
+```json
+"dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "ytdl-core": "^4.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 ```
